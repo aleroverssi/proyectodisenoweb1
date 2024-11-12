@@ -1,0 +1,72 @@
+body {
+
+  justify-items: center;
+  align-items: center;
+  background:linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('../images/background.jpg');
+  background-size:cover;
+
+}
+
+
+#menu{
+  float:right;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  font-family: Geneva;
+}
+
+li {
+  list-style-type: none;
+  float: left;
+}
+
+li a {
+  display: block;
+  font-size: 2rem;
+  color: white;
+  text-align: right;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+.text{
+  position: absolute;
+  right: 1%;
+  top: 40%;
+
+
+}
+
+.text h2 {
+  color: white;
+  font-size: 4rem;
+  font-weight: 700;
+  line-height: 1em;
+  margin: 0
+  
+}
+
+
+.text h4{
+  color: white;
+  font-size: 2rem;
+  padding: 20px 16px;
+}
+
+.list{
+  float:right;
+}
+
+
+
+
+
